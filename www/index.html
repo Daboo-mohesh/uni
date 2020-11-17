@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Uni App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<div data-role="page" id="pageHome" data-theme="a">
+			<div data-role="panel" id="sideBar" data-display="overlay" data-position="left">
+				<div class="sub-title">University of technology <br/> Mauritius</div>
+				<a href="#pageRegister" class="ui-btn ui-mini" data-transition="flow">Register <i class="fas fa-user-plus"></i></a>
+				<a href="#pageLogin" class="ui-btn ui-mini" data-transition="flow">Login <i class="fas fa-sign-in-alt"></i></a>
+				<a href="#pageInfo" class="ui-btn ui-mini" data-transition="flow">More info <i class="fas fa-info-circle"></i></a><br/>			
+			</div>
+			<div data-role="header">
+				<h1>University of technology</h1>
+				<a href="#sideBar" class="ui-btn ui-btn-icon-right ui-icon-bars ui-btn-inline ui-corner-all ui-btn-icon-notext"></a>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageHome" data-icon="home" class="ui-btn-active" data-transitio ="flow">Home</a></li>
+						<li><a href="#pageNews" data-icon="bullets" data-transition="flow">News</a></li>
+						<li><a href="#pageProgrammes" data-icon="grid" data-transition="flow">Programmes</a></li>
+						<li><a href="#pageEvents" data-icon="star" data-transition="flow">Events</a></li>
+						<li><a href="#pageInfo" data-icon="mail" data-transition="flow">Request Info</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<img src="images/utm.jpg" width="100%" height="150"/>
+				<div class="title">University Of Technology</div>
+				<div class="title">Mauritius</div>
+					<p>The University of Technology, Mauritius (UTM) is a public research university in Mauritius. The main campus lies in La Tour Koenig,
+					Pointe-aux-Sables, within the district of Moka.</p>
+				<br/>	
+				<div class="sub-title">Recent Communique</div>
+				<br/>
+				<ul data-role="listview">
+					<li><a href="#pageNews" data-transition="pop">Covid Prevention&nbsp <i class="fas fa-virus"></i></a></li>
+					<li><a href="#pageNews" data-transition="pop">October Intake&nbsp  <i class="fas fa-users"></i></a></li>
+					<li><a href="#pageNews" data-transition="pop">Student Election&nbsp  <i class="fas fa-vote-yea"></i></a></li>
+					<li><a href="#pageNews" data-transition="pop">Resit Google form&nbsp  <i class="far fa-file-alt"></i></a></li>
+					
+				</ul>
+				<br/><br/>
+				<div class="sub-title">Recent Activities</div>
+				<br/>
+				<img src="images/football.jpg" width="100%"/>
+				<div data-role="collapsible">
+					<h1>Football Tournament &nbsp <i class="fas fa-futbol"></i></h1>
+					<p>Organised by the student union. It started on the 08/11/2020 to 11/11/2020. Teams need to fill the online form to be able to participate. Best of luck!</p>
+					<a href="#pageEvents" class="ui-btn ui-btn-b ui-icon-info ui-btn-icon-left">More info</a>
+				</div>
+				<img src="images/graduation.jpg" width="100%">
+				<div data-role="collapsible">
+					<h1>Graduation Ceremony &nbsp <i class="fas fa-graduation-cap"></i></h1>
+					<p>It will be held on the 07/08/2020 at UTM auditorium. It will be a moment of joy for the fresh graduates.<h5 style="color:red;">NOTICE: There will be no classes on the campus on that day.</h5></p>
+					<a href="#pageEvents" class="ui-btn ui-btn-b ui-icon-info ui-btn-icon-left">More info</a>
+				</div>
+			</div>
+				
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageNews">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageHome" data-transition="flow" data-icon="home">Home</a></li>
+						<li><a href="#pageNews" data-transition="flow" data-icon="bullets" class="ui-btn-active">News</a></li>
+						<li><a href="#pageProgrammes" data-transition="flow" data-icon="grid">Programmes</a></li>
+						<li><a href="#pageEvents" data-transition="flow" data-icon="star">Events</a></li>
+						<li><a href="#pageInfo" data-transition="flow" data-icon="mail">Request Info</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="NewsTitle">Covid Prevention</div>
+				<ul>
+					<li><b>Maintain at least a 1-metre distance</b> between yourself and others to reduce your risk of infection when 
+					they cough,sneeze or speak.Maintain an even greater distance between yourself and others when indoors.</li>
+					<li><b>Make wearing a mask a normal part of being around other people.</b></li>
+					<li><b>Regularly and thoroughly clean your hands</b> with an alcohol-based hand rub or wash them with soap and water. </li>
+					<li><b>Avoid touching your eyes, nose and mouth.</b></li>
+					<li><b>Cover your mouth and nose</b> with your bent elbow or tissue when you cough or sneeze.</li>
+					<li><b>If you have a fever, cough and difficulty breathing, seek medical attention immediately.</b></li>
+				</ul>
+				<div class="NewsTitle">October Intake</div>
+				<h4>Enrolment for Academic Year 2020</h4>
+				<h5>Local Students</h5>
+				<ul class="enrolment">
+					<li><a href="#">Please click here for more details</a></li>
+					<li><a href="#">Please click here to fill in and submit online application form</a></li>
+				</ul>
+				<h5>International Students</h5>
+				<ul class="enrolment">
+					<li><a href="#">Please click here to view advert</a></li>
+					<li><a href="#">Please click here to fill in and submit online application form</a></li>
+					<li><a href="#">Please click here to download Fees for SADC Countries</a></li>
+					<li><a href="#">Please click here to download Fees for Non-SADC Countries</a></li>
+				</ul>
+
+				<div class="NewsTitle">Student Election</div>
+					<ul class="enrolment">
+						<li><a href="#">Notice for Student Election</a></li>
+						<li><a href="#">Notice for School Board SITE</a></li>
+						<li><a href="#">Notice for Student Union</a></li>
+						<li><a href="#">Notice for Academic Council</a></li>
+					</ul>
+				
+				<div class="NewsTitle">Resit Forms</div>
+					<ul class="enrolment">
+						<li><a href="#">SITE</a></li>
+						<li><a href="#">SBMF</a></li>
+						<li><a href="#">SSDT</a></li>
+						<li><a href="#">SHS</a></li>
+					</ul>
+				
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageProgrammes" data-theme="a">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageHome" data-transition="flow" data-icon="home">Home</a></li>
+						<li><a href="#pageNews" data-transition="flow" data-icon="bullets">News</a></li>
+						<li><a href="#pageProgrammes" data-transition="flow" data-icon="grid" class="ui-btn-active">Programmes</a></li>
+						<li><a href="#pageEvents" data-transition="flow" data-icon="star">Events</a></li>
+						<li><a href="#pageInfo" data-transition="flow" data-icon="mail">Request Info</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="sub-title">Undergraduate Programmes</div></br>
+					<ul data-role="listview" data-theme="`a">
+						<li><a href="#">SITE</a></li>
+						<li><a href="#">SBMF</a></li>
+						<li><a href="#">SSDT</a></li>
+						<li><a href="#">SHS</a></li>
+					</ul></br></br>
+				<div class="sub-title">Postgraduate Programmes</div><br/>
+					<ul data-role="listview" data-theme="a">
+						<li><a href="#">SITE</a></li>
+						<li><a href="#">SBMF</a></li>
+						<li><a href="#">SSDT</a></li>
+						<li><a href="#">SHS</a></li>
+					</ul></br></br>
+				<a href="#" class="ui-btn ui-btn-a ui-corner-all">Medical Courses</a>
+				<a href="#" class="ui-btn ui-btn-a ui-corner-all">Awards Courses</a>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageEvents" data-theme="a">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageHome" data-transition="flow" data-icon="home">Home</a></li>
+						<li><a href="#pageNews" data-transition="flow" data-icon="bullets">News</a></li>
+						<li><a href="#pageProgrammes" data-transition="flow" data-icon="grid">Programmes</a></li>
+						<li><a href="#pageEvents" data-transition="flow" data-icon="star" class="ui-btn-active">Events</a></li>
+						<li><a href="#pageInfo" data-transition="flow" data-icon="mail">Request Info</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="eventTitle">Events <i class="fas fa-star"></i></div><br/>
+				<img src="images/footBanner.png" width="100%" height="125">
+				<div data-role="collapsible">
+					<h1>Football Tournament</h1>
+					<p>Organised by the student union. It started on the 08/11/2020 to 11/11/2020. Teams need to fill the online form to be able to participate. Best of luck!</p>
+				</div>
+				<hr/>
+				<img src="images/graduate.png" width="100%" height="125">
+				<div data-role="collapsible">
+					<h1>Graduation Ceremony</h1>
+					<p>It will be held on the 07/08/2020 at UTM auditorium. It will be a moment of joy for the fresh graduates.<h5 style="color:red;">NOTICE: There will be no classes on the campus on that day.</h5></p>
+				</div>
+				<hr/>
+				<img src="images/donateBlood.png" width="100%" height="125">
+				<div data-role="collapsible">
+					<h1>Blood donation campaign</h1>
+					<p><div id="donor">Be a donor!</div> Donate <span id="blood">Blood</span>, Donate <span id="life">Life</span><br/>Date: 5th - 10th December 2020<br/> Time: 11am - 5pm<br/>Venue: UTM campus<br/><span id="quote">EVERYONE COULD BE A HERO</span><br/><span id="donor">Be a donor</span></p>
+				</div>
+				<hr/>
+				<img src="images/booklaunch.png" width="100%" height="125">
+				<div data-role="collapsible">
+					<h1>Book Launch</h1>
+					<p><span id="book">Book Launch</span> <br/>Join the writers and fine Artists for an evening of merriment, Readings, Discussions & Book signing.<br/><span id="date">DECEMBER 8, 2020, 6PM, UTM auditorium.</span><br/>Books will be for sale, Cash only or order by Amazon.com</p>
+				</div>
+				<hr/>
+				<img src="images/JobFairs.png" width="100%" height="125">
+				<div data-role="collapsible">
+					<h1>Job Fairs</h1>
+					<p>Sky group is organising a <b>Job/Career fair</b> at Swami Vivekananda, pailles <b>as from Wednesday 25th November 2020 - Friday 27th November 2020 at 11am - 4pm</b><br/> For more details: <br/><i class="far fa-envelope"></i> skygroup@gmail.com<br/><i class="fas fa-phone-alt"></i>+230 58982288</p>
+				</div>
+				<hr/>
+				<img src="images/antiDrug.png" width="100%" height="125">
+					<div data-role="collapsible">
+					<h1>Anti Drug Campaign</h1>
+					<p><span id="drugs">SAY NO TO DRUGS!</span><br/>a campaign held by the Student Union to fight against drugs. You are kindly invited to this event on UTM playground at 09am.</p>
+				</div>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageInfo" data-theme="a">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#pageHome" data-transition="flow" data-icon="home">Home</a></li>
+						<li><a href="#pageNews" data-transition="flow" data-icon="bullets">News</a></li>
+						<li><a href="#pageProgrammes" data-transition="flow" data-icon="grid">Programmes</a></li>
+						<li><a href="#pageEvents" data-transition="flow" data-icon="star">Events</a></li>
+						<li><a href="#pageInfo" data-transition="flow" data-icon="mail"  class="ui-btn-active">Request Info</a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<form>
+					<label for="fname">First Name</label>
+					<input type="text" name="fname" id="txtFname" placeholder="Enter First name"><br/>		
+					<label for="lname">Last Name</label>
+					<input type="text" name="lname" id="txtLname" placeholder="Enter Last name"><br/>			
+					<label for="email">Email</label>
+					<input type="email" name="email" id="txtEmail" placeholder="Enter Email"><br/>					
+					<label for="queries">Complain</label>
+					<textarea type="text" name="queries" id="txtqueries" placeholder="Enter Queries"></textarea><br/>
+					<a href="#pageSentInfo" class="ui-btn ui-corner-all">Submit</a>
+				</form>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageSentInfo" data-theme="a" data-dialog="true">
+			<div data-role="header">
+				<h1>Request sent</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<p>Your Query has been sent to the Information Desk. You will soon receive your response. <br/><br/>  Thank you!<br/>Information Desk, University of Technology Mauritius</p>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageRegister" data-dialog="true" data-theme="a">
+			<div data-role="header">
+				<h1>Register Form</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<form>
+					<label for="fname">First Name</label>
+					<input type="text" name="fname" id="txtRFname" placeholder="Enter First name"><br/>		
+					<label for="lname">Last Name</label>
+					<input type="text" name="lname" id="txtRLname" placeholder="Enter Last name"><br/>						
+					<label for="DOB">Date of Birth</label>
+					<input type="date" name="DOB" id="txtRDOB"><br/>
+					<label for="gender">Gender</label>
+					<select id="ddlGender" name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select><br/>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="txtREmail" placeholder="Enter Email"><br/>		
+					<label for="password">Password</label>
+					<input type="password" id="txtPassword" name="password" placeholder="Enter Password"><br/>
+					<a href="#" class="ui-btn ui-corner-all" data-transition="fade" >Submit</a>
+				</form>
+			</div>
+			<div data-role="footer"></div>
+		</div>
+		
+		<div data-role="page" id="pageLogin" data-dialog="true" data-theme="a">
+			<div data-role="header">
+				<h1>Login Form</h1>
+			</div>
+		<div data-role="main" class="ui-content">
+			<form>
+				<label for="email">Email</label>
+					<input type="email" name="email" id="txtREmail" placeholder="Enter Email"><br/>		
+				<label for="password">Password</label>
+					<input type="password" id="txtPassword" name="password" placeholder="Enter Password"><br/>
+				<a href="#" class="ui-btn ui-corner-all">Submit</a>
+			</form>
+		</div>
+		<div data-role="footer"></div>
+		</div>
+		
+	
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.js"></script>
+		<script src="js/fontAwesome.js"></script>
+	</body>
+</html>

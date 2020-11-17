@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap ="http://phonegap.com/ns/1.0" id="com.phonegap.example" version="1.0.0">
+<name>UniApp</name>
+<description>phoneGap trial</description>
+<author href= "https://build.phonegap.com"> email="daboomohesh822@gmail.com">Mohesh Daboo</author>
+</widget>

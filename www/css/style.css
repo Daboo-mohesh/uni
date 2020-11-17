@@ -1,0 +1,76 @@
+body{
+	font-family:Trebuchet Ms;
+}
+
+.title{
+	text-align:center;
+	color:#2B65EC;
+	font-size:110%;
+}
+.sub-title{
+	font-size:110%;
+	font-weight:bold;
+	text-align:center;
+}
+
+img{
+	border-radius:2%;
+}
+
+.NewsTitle{
+	background: linear-gradient(to right, #38cdff 0%, #97e0f2 100%);
+	text-align:center;
+	margin-bottom:1%;
+	padding:2%;
+	font-size:110%;
+	color:black;
+}
+
+li{
+	font-size:100%;
+}
+
+.enrolment li{
+	font-size:85%;
+	padding-bottom:2%;
+}
+
+#blood{
+	color:red;
+	font-family: Lucida Handwriting;
+}
+
+#life{
+	color:red;
+	font-family: Arial Black;
+}
+
+#quote{
+	font-family: Lucida Sans Typewriter;
+	font-weight:bold;
+}
+
+#donor{
+	color:red;
+	font-family: Lucida Handwriting;
+}
+
+#book{
+	text-align:center;
+	font-weight:bold;
+}
+
+#date{
+	font-weight:bold;
+}
+
+#drugs{
+	color:red;
+	font-weight:bold;
+}
+
+.eventTitle{
+	text-align:center;
+	font-size:130%;
+	color:Black;
+}
